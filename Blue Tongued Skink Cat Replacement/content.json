@@ -1,0 +1,65 @@
+{
+    "Format": "1.20.0",
+     "ConfigSchema": {
+         "Cat to Replace": {
+            "AllowValues": "Orange, Grey, Tan, All",
+            "Default": "All"
+        },
+      },
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Cat",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "Orange"
+              }
+        },
+           {
+            "Action": "EditImage",
+            "Target": "Animals/Cat1",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "Grey"
+              }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Cat2",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "Tan"
+              }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Cat",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "All"
+              }
+        },
+           {
+            "Action": "EditImage",
+            "Target": "Animals/Cat1",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "All"
+              }
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Animals/Cat2",
+            "FromFile": "assets/skink.png",
+            "PatchMode": "Replace",
+            "When":{ 
+                  "Cat to Replace": "All"
+              }
+        },
+	 ]
+}
